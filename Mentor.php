@@ -170,7 +170,7 @@ $userData = $profileModel->getUserData($_SESSION['user_data']['id']);
 		 <div class="d-flex flex-row justify-content-center" style="">
 		 
 		 <div class="card profilecard" >
-  <img class="card-img-top " src="uploads/<?php echo $userData->profile_image; ?>" alt="Card image cap" >
+  <img class="card-img-top " style="height:11rem;"src="uploads/<?php echo $userData->profile_image; ?>" alt="Card image cap" >
      <button onclick="#" class="btn follow profilecardbutton" >
    <span class="msg-follow">Follow</span>
   <span class="msg-following">Following</span>
@@ -688,7 +688,9 @@ top:7rem;
              <div class="card-body ">
 			  
 			  <img class="card-img-top " src="images/dota_2.jpg" alt="Image" ></img>
-			  
+			  <!--  <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="images/ETRG.mp4" allowfullscreen></iframe>
+</div>-->
 		   <div class="card-img-overlay" style="width:40rem;height:5rem;margin-top:5rem;">
 			  	  <div class="clike">
 			  <ul class="list-group  ">
